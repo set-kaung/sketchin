@@ -74,7 +74,7 @@ function sizeChoosing(e){
 }
 
 eraserBtn.addEventListener("click", toggleEraser)
-colorPicker.addEventListener("input",(e) =>(currentColor=e.target.value));
+colorPicker.addEventListener("input",(e) =>{currentColor=e.target.value;if(eraser=true)toggleEraser();});
 gridToggleBtn.addEventListener("click", toggleGrid);
 sizeOptions.addEventListener("input", (e) =>{sizeChoosing(e)});
 document.body.addEventListener("mousedown",()=>(mouseDown= true));
