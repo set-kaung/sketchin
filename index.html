@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sketchin'</title>
+</head>
+<body> 
+    <h1><span class="beginning">Sketch</span><span class="ending">in'</span></h1>
+        <div class="main">
+            <div class="options">
+                <input class="picker" type="color" value="#000000">
+                <button class="eraser">Eraser</button>
+                <button class="grid-toggle">Toggle Grid</button>
+                <button class="clear">Clear</button>
+                <label for="size-options">Choose canvas size:</label>
+                <select id="size-options">
+                    <option value="64">8x8</option>
+                    <option value="81">9x9</option>
+                    <option value="100">10x10</option>
+                    <option value="121">11x11</option>
+                    <option value="144">12x12</option>
+                    <option value="169">13x13</option>
+                    <option value="196">14x14</option>
+                    <option value="225">15x15</option>
+                    <option value="256">16x16</option>
+                </select>
+    
+                
+            </div>
+            <div class="area">
+                <div class="canvas"></div>
+            </div>
+            
+        </div>
+    <script src="index.js"></script>
+</body>
+</html>
