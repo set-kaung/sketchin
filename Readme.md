@@ -1,4 +1,4 @@
 # sketch-pad
 Sketch pad exercise for Odin Project
 
-[Live Preview](https://set-kaung.github.io/sketch-pad/)
+[Live Preview]([https://set-kaung.github.io/sketch-pad/](https://set-kaung.github.io/sketchin/))
