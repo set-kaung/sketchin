@@ -17,13 +17,10 @@ function canvasGenerator(size){
     let column = Math.sqrt(size);
     canvas.style.gridTemplateColumns = "repeat("+column+",1fr)";
     canvas.style.gridTemplateRows = "repeat("+column+",1fr)";
-    let boxSize = 450/column;
 
     for(var i=0;i<size;i++){
         let div = document.createElement("div");
         div.classList.add("boder");
-        div.style.width = boxSize;
-        div.style.height = boxSize;
         div.addEventListener("mousedown",(event) => {changeColor(event)});
         div.addEventListener("mouseover", (event) => {changeColor(event)})
         canvas.appendChild(div);
